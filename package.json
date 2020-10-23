@@ -1,10 +1,10 @@
 {
-  "name": "react-loadable-visibility",
-  "version": "3.0.2",
+  "name": "@bolekro/react-loadable-visibility",
+  "version": "3.0.3",
   "description": "A wrapper around react-loadable for elements that are visible on the page",
   "main": "index.js",
-  "repository": "https://github.com/stratiformltd/react-loadable-visibility",
-  "author": "Tasveer Singh",
+  "repository": "https://github.com/bolekro/react-loadable-visibility",
+  "author": "Tomasz Rojek",
   "license": "BSD-3-Clause",
   "scripts": {
     "build": "babel src --out-dir . --ignore \"src/**/__mocks__\",\"src/**/__tests__\"",
@@ -25,6 +25,6 @@
     "jest": "^24.8.0",
     "react": "16.12.0",
     "react-dom": "16.12.0",
-    "react-loadable": "^5.5.0"
+    "@bolekro/react-loadable": "^5.5.1"
   }
 }

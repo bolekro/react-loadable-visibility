@@ -1,6 +1,6 @@
-jest.dontMock("react-loadable");
+jest.dontMock("@bolekro/react-loadable");
 
-const Loadable = require("react-loadable");
+const Loadable = require("@bolekro/react-loadable");
 const React = require("react");
 
 const {
@@ -77,9 +77,9 @@ describe("Loadable", () => {
 
   test("preload calls Loadable preload", () => {
     // Mock react-loadable to get a stable `preload` function
-    jest.doMock("react-loadable");
+    jest.doMock("@bolekro/react-loadable");
 
-    const Loadable = require("react-loadable");
+    const Loadable = require("@bolekro/react-loadable");
     const LoadableVisibility = require("../../react-loadable"); // Require our tested module with the above mock applied
 
     LoadableVisibility(opts).preload();
@@ -143,9 +143,9 @@ describe("Loadable.Map", () => {
 
   test("doesnt return Map", () => {
     // Mock react-loadable to get a stable `preload` function
-    jest.doMock("react-loadable");
+    jest.doMock("@bolekro/react-loadable");
 
-    const Loadable = require("react-loadable");
+    const Loadable = require("@bolekro/react-loadable");
     const LoadableVisibility = require("../../react-loadable"); // Require our tested module with the above mock applied
 
     expect(LoadableVisibility.Map(opts)).not.toBe(Loadable.Map(opts));
@@ -201,9 +201,9 @@ describe("Loadable.Map", () => {
 
   test("preload calls Map preload", () => {
     // Mock react-loadable to get a stable `preload` function
-    jest.doMock("react-loadable");
+    jest.doMock("@bolekro/react-loadable");
 
-    const Loadable = require("react-loadable");
+    const Loadable = require("@bolekro/react-loadable");
     const LoadableVisibility = require("../../react-loadable"); // Require our tested module with the above mock applied
 
     LoadableVisibility.Map(opts).preload();

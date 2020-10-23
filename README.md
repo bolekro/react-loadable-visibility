@@ -1,8 +1,8 @@
 # `react-loadable-visibility`
 
-> A wrapper around [react-loadable](https://github.com/thejameskyle/react-loadable) and [@loadable/component](https://github.com/smooth-code/loadable-components), only loading imports that are visible on the page.
+> This if a fork of https://github.com/stratiformltd/react-loadable-visibility intended to be used with react-loadable instead of react-loadable
 
-[![npm version](https://badge.fury.io/js/react-loadable-visibility.svg)](https://badge.fury.io/js/react-loadable-visibility) [![Build Status](https://travis-ci.org/stratiformltd/react-loadable-visibility.svg?branch=master)](https://travis-ci.org/stratiformltd/react-loadable-visibility)
+> A wrapper around [react-loadable](https://github.com/bolekro/react-loadable) and [@loadable/component](https://github.com/smooth-code/loadable-components), only loading imports that are visible on the page.
 
 ## Example using `react-loadable`
 

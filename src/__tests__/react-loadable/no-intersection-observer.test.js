@@ -1,4 +1,4 @@
-const Loadable = require("react-loadable");
+const Loadable = require("@bolekro/react-loadable");
 const LoadableVisibility = require("../../react-loadable");
 
 const opts = {

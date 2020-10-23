@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import Loadable from 'react-loadable'
+import Loadable from '@bolekro/react-loadable'
 import createLoadableVisibilityComponent from './createLoadableVisibilityComponent'
 import { IntersectionObserver } from './capacities'
 
