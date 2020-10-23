@@ -1,6 +1,6 @@
 # `react-loadable-visibility`
 
-> This if a fork of https://github.com/stratiformltd/react-loadable-visibility intended to be used with react-loadable instead of react-loadable
+> This if a fork of https://github.com/stratiformltd/react-loadable-visibility intended to be used with @bolekro/react-loadable instead of react-loadable which is no longer maintained.
 
 > A wrapper around [react-loadable](https://github.com/bolekro/react-loadable) and [@loadable/component](https://github.com/smooth-code/loadable-components), only loading imports that are visible on the page.
 
