@@ -7,7 +7,7 @@
 ## Example using `react-loadable`
 
 ```js
-import LoadableVisibility from "react-loadable-visibility/react-loadable";
+import LoadableVisibility from "@bolekro/react-loadable-visibility/react-loadable";
 import Loading from "./my-loading-component";
 
 const LoadableComponent = LoadableVisibility({
@@ -23,7 +23,7 @@ export default function App() {
 ## Example using `@loadable/component`
 
 ```js
-import loadableVisibility from "react-loadable-visibility/loadable-components";
+import loadableVisibility from "@bolekro/react-loadable-visibility/loadable-components";
 import Loading from "./my-loading-component";
 
 const LoadableComponent = loadableVisibility(() => import("./my-component"), {
